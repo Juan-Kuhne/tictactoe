@@ -1,0 +1,80 @@
+body {
+    background-color: #353535;
+    color: #bcbcbc;
+}
+
+.game {
+    /* border: 2px solid #454545; */
+    width: calc(100vw / 2);
+    height: calc(100vw / 2);
+    position: absolute;
+    top: calc(50% - (100vw / (2 * 2)));
+    left: calc(50% - (100vw / (2 * 2)));
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc((100% / 3) - 4px);
+    /* text-align: center; */
+}
+
+.box span {
+    margin-top: calc(3rem / 2);
+    margin-left: calc(3rem / 2);
+    font-size: 12rem;
+    /* color: green; */
+}
+
+.box:nth-child(1) {
+    border-bottom: 2px solid #bcbcbc;
+    border-right: 2px solid #bcbcbc;
+    color: chartreuse;
+}
+
+.box:nth-child(2) {
+    border-left: 2px solid #bcbcbc;
+    border-bottom: 2px solid #bcbcbc;
+    border-right: 2px solid #bcbcbc;
+}
+
+.box:nth-child(3) {
+    border-left: 2px solid #bcbcbc;
+    border-bottom: 2px solid #bcbcbc;
+}
+
+.box:nth-child(4) {
+    border-bottom: 2px solid #bcbcbc;
+    border-right: 2px solid #bcbcbc;
+    border-top: 2px solid #bcbcbc;
+    color: red;
+}
+
+.box:nth-child(5) {
+    border-left: 2px solid #bcbcbc;
+    border-bottom: 2px solid #bcbcbc;
+    border-right: 2px solid #bcbcbc;
+    border-top: 2px solid #bcbcbc;
+}
+
+.box:nth-child(6) {
+    border-left: 2px solid #bcbcbc;
+    border-bottom: 2px solid #bcbcbc;
+    border-top: 2px solid #bcbcbc;
+}
+
+.box:nth-child(7) {
+    border-right: 2px solid #bcbcbc;
+    border-top: 2px solid #bcbcbc;
+}
+
+.box:nth-child(8) {
+    border-left: 2px solid #bcbcbc;
+    border-right: 2px solid #bcbcbc;
+    border-top: 2px solid #bcbcbc;
+}
+
+.box:nth-child(9) {
+    border-left: 2px solid #bcbcbc;
+    border-top: 2px solid #bcbcbc;
+}
